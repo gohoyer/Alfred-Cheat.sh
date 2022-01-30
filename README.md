@@ -5,6 +5,8 @@ Access your favourite cheat sheets from [cheat.sh](http://cheat.sh) directly fro
 # Usage  
 The main workflow is accessd throught the keyword `cht`:  
 
+https://user-images.githubusercontent.com/13389074/151710831-2e295aaa-7f27-47bb-9608-cea5411de36c.mp4
+
 The selected cheat sheet will be copied to your clipboard.  
 
 On the first usage, the workflow will ask you to update the avaliable cheat sheets because it compiles a lista of avaliable items and caches it on the Work Flow Data folder for faster results. At anytime you could update the list throught the menu `update cheats`:  
