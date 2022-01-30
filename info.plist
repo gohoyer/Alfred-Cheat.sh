@@ -1,0 +1,984 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.gohoyer.cheat.sh</string>
+	<key>category</key>
+	<string>Tools</string>
+	<key>connections</key>
+	<dict>
+		<key>197108F9-9FD4-4644-A545-9D7927FDFE2F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>6F8A780A-1AC2-4106-8E25-A9178B3B7DD2</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>79D665F7-D917-4E8B-8EE1-D7BDD366B889</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>365E5B97-07A5-44FE-B8FD-F2BA97A03E1C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>36BE0CEB-E745-4E88-AB17-DF863F6128F1</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D88539DE-8B8B-4A10-8AC6-554605A842C9</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>36CCB3C0-172E-403D-BAE8-8A157DF7B038</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C8FDEB59-D825-4363-B705-0440C3FECBD6</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>6CBE969A-9B97-407A-AFFC-49F6A4B3FE77</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>98404AE0-BF94-4D07-8255-4E29CD3A878F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>6F8A780A-1AC2-4106-8E25-A9178B3B7DD2</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>FD01CC80-8A50-48E9-A263-8BD198C61CD4</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>7F66BB95-7AC3-4BF1-A8DD-14B8ADEEB77C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>197108F9-9FD4-4644-A545-9D7927FDFE2F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>8FBF5CCC-D11F-438F-8888-1C6B3C3AF1A3</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>6CBE969A-9B97-407A-AFFC-49F6A4B3FE77</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>C8DEC99C-F972-440F-B1BF-B5A6306D2255</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>36BE0CEB-E745-4E88-AB17-DF863F6128F1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>C8FDEB59-D825-4363-B705-0440C3FECBD6</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>64F3D7A3-AFA4-40E1-A68B-71F7B44F2807</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>CDB6D866-7374-4F9E-B548-0105E11470F4</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>D88539DE-8B8B-4A10-8AC6-554605A842C9</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>2549059D-BF27-441E-80E4-71492B713081</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>59C3A62F-C01C-416F-994F-3AA1A45FF1F6</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>36CCB3C0-172E-403D-BAE8-8A157DF7B038</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>59C3A62F-C01C-416F-994F-3AA1A45FF1F6</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>7F66BB95-7AC3-4BF1-A8DD-14B8ADEEB77C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>729EB86E-FD0D-4A1A-8F8C-6C06C61F889A</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>E092F30D-F837-4EAC-97AF-7496B2DDFA06</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>4A0A7E4F-2A1C-452E-A557-5BC85B6C4485</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>FD01CC80-8A50-48E9-A263-8BD198C61CD4</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>E092F30D-F837-4EAC-97AF-7496B2DDFA06</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>GoHoyer</string>
+	<key>description</key>
+	<string>Access cheat.sh from Alfred</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Cheat.sh</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>fcht</string>
+				<key>subtext</key>
+				<string>Display cheatchet on Terminal</string>
+				<key>text</key>
+				<string>Cheat.sh</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>8FBF5CCC-D11F-438F-8888-1C6B3C3AF1A3</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Loading avaliable cheats</string>
+				<key>script</key>
+				<string># Get the full list of avaliable cheats
+cheat_list=$(/usr/bin/curl -s "cheat.sh/:list")
+
+SAVEIFS=$IFS        # Save current IFS (Internal Field Separator)
+IFS=$'\n'           # Change IFS to newline char
+array=($cheat_list) # split the `names` string into an array by the same name
+IFS=$SAVEIFS        # Restore original IFS
+
+# Converts the bash array to a json array
+json_array=$(printf '%s\n' "${array[@]}" | /usr/local/bin/jq -R . | /usr/local/bin/jq -s .)
+
+# Format the output as Script Filter Json Format
+/usr/local/bin/jq -n --argjson item "$json_array" -f &lt;(echo '{"items":[$item[] as $name | {"uid":$name,"title":$name,"arg":$name,"autocomplete":$name}]}')</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Select one of the above cheats</string>
+				<key>title</key>
+				<string>Cheat.sh</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>6CBE969A-9B97-407A-AFFC-49F6A4B3FE77</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>/usr/bin/curl -s "cheat.sh/{query}"</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.terminalcommand</string>
+			<key>uid</key>
+			<string>98404AE0-BF94-4D07-8255-4E29CD3A878F</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alignment</key>
+				<integer>0</integer>
+				<key>backgroundcolor</key>
+				<string></string>
+				<key>fadespeed</key>
+				<integer>0</integer>
+				<key>fillmode</key>
+				<integer>0</integer>
+				<key>font</key>
+				<string></string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>largetypetext</key>
+				<string>Updating avaliable cheat sheets...
+
+Please wait... (usually 15 seconds)</string>
+				<key>textcolor</key>
+				<string></string>
+				<key>wrapat</key>
+				<integer>50</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.largetype</string>
+			<key>uid</key>
+			<string>2549059D-BF27-441E-80E4-71492B713081</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>Now you can list avaliable</string>
+				<key>title</key>
+				<string>Cheets sucessfully updated</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>64F3D7A3-AFA4-40E1-A68B-71F7B44F2807</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string># Get the full list of avaliable cheats
+cheat_list=$(/usr/bin/curl -s "cheat.sh/:list")
+# Get only the languages avaliable
+languages=$(echo "${cheat_list}" | grep ":learn" | awk -F'/' '{print $1}')
+
+# Removes special commands
+#cheat_list=$(echo "${cheat_list}" | grep -v ":")
+
+SAVEIFS=$IFS              # Save current IFS (Internal Field Separator)
+IFS=$'\n'                 # Change IFS to newline char
+cheat_list=($cheat_list)  # split the `cheat_list` string into an array by the same name
+languages=($languages)    # split the `languages` string into an array by the same name
+IFS=$SAVEIFS              # Restore original IFS
+
+# Removes the languages from the list
+for i in "${!cheat_list[@]}"; do
+  for target in "${languages[@]}"; do
+    if [[ ${cheat_list[i]} = "$target" ]]; then
+      unset 'cheat_list[i]'
+    fi
+  done
+done
+
+# Converts the bash array to a json array
+json_array=$(printf '%s\n' "${cheat_list[@]}" | grep -v ":\|/" | /usr/local/bin/jq -R . | /usr/local/bin/jq -s .)
+
+# Format the output as Script Filter Json Format
+/usr/local/bin/jq -n --argjson item "$json_array" -f &lt;(echo '{"items":[$item[] as $name | {"uid":$name,"title":$name,"arg":$name,"autocomplete":$name}]}')</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>36CCB3C0-172E-403D-BAE8-8A157DF7B038</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>adduuid</key>
+				<false/>
+				<key>allowemptyfiles</key>
+				<true/>
+				<key>createintermediatefolders</key>
+				<true/>
+				<key>filename</key>
+				<string>avaliable_commands</string>
+				<key>filetext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>relativepathmode</key>
+				<integer>0</integer>
+				<key>type</key>
+				<integer>1</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.writefile</string>
+			<key>uid</key>
+			<string>C8FDEB59-D825-4363-B705-0440C3FECBD6</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>cht</string>
+				<key>leftcursor</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.showalfred</string>
+			<key>uid</key>
+			<string>CDB6D866-7374-4F9E-B548-0105E11470F4</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>fixedorder</key>
+				<true/>
+				<key>items</key>
+				<string>[{"imagefile":"06ac88829e937045d12dc95d30dc8640af558b24.png","title":"list cheats","arg":"cheats"},{"imagefile":"07e314fa991f6df5b43eaf8ceb13a6a730d9f94b.png","title":"update cheats","arg":"update"}]</string>
+				<key>keyword</key>
+				<string>cht</string>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string></string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.listfilter</string>
+			<key>uid</key>
+			<string>C8DEC99C-F972-440F-B1BF-B5A6306D2255</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:init_option}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>update</string>
+						<key>outputlabel</key>
+						<string>Update Avaliable</string>
+						<key>uid</key>
+						<string>59C3A62F-C01C-416F-994F-3AA1A45FF1F6</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:init_option}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>cheats</string>
+						<key>outputlabel</key>
+						<string>List cheats</string>
+						<key>uid</key>
+						<string>729EB86E-FD0D-4A1A-8F8C-6C06C61F889A</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>noop</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>D88539DE-8B8B-4A10-8AC6-554605A842C9</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>init_option</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>36BE0CEB-E745-4E88-AB17-DF863F6128F1</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>E092F30D-F837-4EAC-97AF-7496B2DDFA06</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Loading selected cheat sheet</string>
+				<key>script</key>
+				<string>result=$(/usr/bin/curl -s "cheat.sh/${search_for}?qT")
+previous_line=""
+json_array=""
+command_buffer=""
+
+SAVEIFS=$IFS        # Save current IFS (Internal Field Separator)
+IFS=$'\n'           # Change IFS to newline char
+
+for line in $result; do
+
+  # Escape chars like double quotes
+  line="${line//\"/\\\"}"
+
+  # Check if the line is a comment
+  if [[ "${line:0:1}" == '#' ]]; then
+
+    # It whe have commands on buffer
+    if [[ -n "${command_buffer}" ]]; then
+      # output to json array
+      new_element="{\"title\":\"${previous_line:1}\",\"subtitle\":\"${command_buffer:0:50}\",\"arg\":\"$command_buffer\",\"autocomplete\":\"$previous_line\"}"
+      if [[ -z "${json_array}" ]]; then
+        # Initialize the array
+        json_array=$new_element
+      else
+        # Append to the end of the array
+        json_array="${json_array},${new_element}"
+      fi
+    fi
+
+    # clear command buffer
+    command_buffer=""
+    previous_line=$line
+
+  else
+    # Puts the line on the buffer
+    if [[ -z "${command_buffer}" ]]; then
+      command_buffer="${line}"
+    else
+      command_buffer="${command_buffer}\n${line}"
+    fi
+
+  fi
+
+done
+
+# It whe still have commands on buffer
+if [[ -n "${command_buffer}" ]]; then
+  # output to json array
+  new_element="{\"title\":\"${previous_line:1}\",\"subtitle\":\"${command_buffer:0:50}\",\"arg\":\"$command_buffer\",\"autocomplete\":\"$previous_line\"}"
+  if [[ -z "${json_array}" ]]; then
+    # Initialize the array
+    json_array=$new_element
+  else
+    # Append to the end of the array
+    json_array="${json_array},${new_element}"
+  fi
+fi
+
+# Append to the end of the array
+json_array="{\"items\": [${json_array}]}"
+
+echo "$json_array" | /usr/local/bin/jq
+
+IFS=$SAVEIFS        # Restore original IFS</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Select the one  you need and it will be copied to your clipboard</string>
+				<key>title</key>
+				<string>Details for {query}</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>FD01CC80-8A50-48E9-A263-8BD198C61CD4</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>{query}</string>
+				<key>title</key>
+				<string>Cheat sheet copied to cipboard</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>4A0A7E4F-2A1C-452E-A557-5BC85B6C4485</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Loading avaliable cheats</string>
+				<key>script</key>
+				<string>query=$(cat "$alfred_workflow_data"/avaliable_commands 2&gt;/dev/null || echo "{\"items\": [{\"title\":\"Please update cheats first\",\"subtitle\":\"Select the update cheats option\",\"arg\":\"ERROR\",\"autocomplete\":\"update\"}]}")
+
+echo -n $query</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Select one of the above cheats</string>
+				<key>title</key>
+				<string>Cheat.sh</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>7F66BB95-7AC3-4BF1-A8DD-14B8ADEEB77C</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>search_for</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>6F8A780A-1AC2-4106-8E25-A9178B3B7DD2</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>1</integer>
+						<key>matchstring</key>
+						<string>ERROR</string>
+						<key>outputlabel</key>
+						<string>List exist</string>
+						<key>uid</key>
+						<string>79D665F7-D917-4E8B-8EE1-D7BDD366B889</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>List Dont Exist</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>197108F9-9FD4-4644-A545-9D7927FDFE2F</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>cht update</string>
+				<key>leftcursor</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.showalfred</string>
+			<key>uid</key>
+			<string>365E5B97-07A5-44FE-B8FD-F2BA97A03E1C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>Check the READ.me at https://github.com/gohoyer/Alfred-Cheat.sh</string>
+	<key>uidata</key>
+	<dict>
+		<key>197108F9-9FD4-4644-A545-9D7927FDFE2F</key>
+		<dict>
+			<key>xpos</key>
+			<integer>705</integer>
+			<key>ypos</key>
+			<integer>855</integer>
+		</dict>
+		<key>2549059D-BF27-441E-80E4-71492B713081</key>
+		<dict>
+			<key>xpos</key>
+			<integer>520</integer>
+			<key>ypos</key>
+			<integer>470</integer>
+		</dict>
+		<key>365E5B97-07A5-44FE-B8FD-F2BA97A03E1C</key>
+		<dict>
+			<key>xpos</key>
+			<integer>870</integer>
+			<key>ypos</key>
+			<integer>965</integer>
+		</dict>
+		<key>36BE0CEB-E745-4E88-AB17-DF863F6128F1</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>2</integer>
+			<key>xpos</key>
+			<integer>215</integer>
+			<key>ypos</key>
+			<integer>730</integer>
+		</dict>
+		<key>36CCB3C0-172E-403D-BAE8-8A157DF7B038</key>
+		<dict>
+			<key>note</key>
+			<string>Update avalilable</string>
+			<key>xpos</key>
+			<integer>520</integer>
+			<key>ypos</key>
+			<integer>605</integer>
+		</dict>
+		<key>4A0A7E4F-2A1C-452E-A557-5BC85B6C4485</key>
+		<dict>
+			<key>xpos</key>
+			<integer>1310</integer>
+			<key>ypos</key>
+			<integer>820</integer>
+		</dict>
+		<key>64F3D7A3-AFA4-40E1-A68B-71F7B44F2807</key>
+		<dict>
+			<key>xpos</key>
+			<integer>885</integer>
+			<key>ypos</key>
+			<integer>520</integer>
+		</dict>
+		<key>6CBE969A-9B97-407A-AFFC-49F6A4B3FE77</key>
+		<dict>
+			<key>note</key>
+			<string>Get avaliable cheat sheets</string>
+			<key>xpos</key>
+			<integer>520</integer>
+			<key>ypos</key>
+			<integer>160</integer>
+		</dict>
+		<key>6F8A780A-1AC2-4106-8E25-A9178B3B7DD2</key>
+		<dict>
+			<key>xpos</key>
+			<integer>855</integer>
+			<key>ypos</key>
+			<integer>850</integer>
+		</dict>
+		<key>7F66BB95-7AC3-4BF1-A8DD-14B8ADEEB77C</key>
+		<dict>
+			<key>note</key>
+			<string>Get avaliable cheat sheets</string>
+			<key>xpos</key>
+			<integer>525</integer>
+			<key>ypos</key>
+			<integer>835</integer>
+		</dict>
+		<key>8FBF5CCC-D11F-438F-8888-1C6B3C3AF1A3</key>
+		<dict>
+			<key>note</key>
+			<string>Complete cheatsheets workflow
+Display results on terminal</string>
+			<key>xpos</key>
+			<integer>15</integer>
+			<key>ypos</key>
+			<integer>160</integer>
+		</dict>
+		<key>98404AE0-BF94-4D07-8255-4E29CD3A878F</key>
+		<dict>
+			<key>note</key>
+			<string>Display results on terminal</string>
+			<key>xpos</key>
+			<integer>1130</integer>
+			<key>ypos</key>
+			<integer>160</integer>
+		</dict>
+		<key>C8DEC99C-F972-440F-B1BF-B5A6306D2255</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>2</integer>
+			<key>note</key>
+			<string>Limited to comands only
+
+Wont display languages or special commands like :help</string>
+			<key>xpos</key>
+			<integer>20</integer>
+			<key>ypos</key>
+			<integer>700</integer>
+		</dict>
+		<key>C8FDEB59-D825-4363-B705-0440C3FECBD6</key>
+		<dict>
+			<key>xpos</key>
+			<integer>710</integer>
+			<key>ypos</key>
+			<integer>605</integer>
+		</dict>
+		<key>CDB6D866-7374-4F9E-B548-0105E11470F4</key>
+		<dict>
+			<key>xpos</key>
+			<integer>905</integer>
+			<key>ypos</key>
+			<integer>700</integer>
+		</dict>
+		<key>D88539DE-8B8B-4A10-8AC6-554605A842C9</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>2</integer>
+			<key>xpos</key>
+			<integer>315</integer>
+			<key>ypos</key>
+			<integer>705</integer>
+		</dict>
+		<key>E092F30D-F837-4EAC-97AF-7496B2DDFA06</key>
+		<dict>
+			<key>xpos</key>
+			<integer>1130</integer>
+			<key>ypos</key>
+			<integer>820</integer>
+		</dict>
+		<key>FD01CC80-8A50-48E9-A263-8BD198C61CD4</key>
+		<dict>
+			<key>note</key>
+			<string>Get details of the selected cheat sheet</string>
+			<key>xpos</key>
+			<integer>950</integer>
+			<key>ypos</key>
+			<integer>820</integer>
+		</dict>
+	</dict>
+	<key>variablesdontexport</key>
+	<array/>
+	<key>version</key>
+	<string>1.0.0</string>
+	<key>webaddress</key>
+	<string>https://github.com/gohoyer</string>
+</dict>
+</plist>
