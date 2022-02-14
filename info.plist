@@ -265,13 +265,13 @@ json_array=$(printf '%s\n' "${array[@]}" | /usr/local/bin/jq -R . | /usr/local/b
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
-				<string></string>
+				<string>get_full_list.sh</string>
 				<key>subtext</key>
 				<string>Select one of the above cheats</string>
 				<key>title</key>
 				<string>Cheat.sh</string>
 				<key>type</key>
-				<integer>0</integer>
+				<integer>8</integer>
 				<key>withspace</key>
 				<true/>
 			</dict>
@@ -461,9 +461,9 @@ jq -n --argjson item "$json_array" -f &lt;(echo '{"items":[$item[] as $name | {"
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
-				<string></string>
+				<string>update_avaliable.sh</string>
 				<key>type</key>
-				<integer>0</integer>
+				<integer>8</integer>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.script</string>
@@ -671,15 +671,15 @@ echo "$json_array" | /usr/local/bin/jq
 
 IFS=$SAVEIFS        # Restore original IFS</string>
 				<key>scriptargtype</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>scriptfile</key>
-				<string></string>
+				<string>get_details.sh</string>
 				<key>subtext</key>
 				<string>Select the one  you need and it will be copied to your clipboard</string>
 				<key>title</key>
 				<string>Details for {query}</string>
 				<key>type</key>
-				<integer>0</integer>
+				<integer>8</integer>
 				<key>withspace</key>
 				<false/>
 			</dict>
@@ -1002,7 +1002,7 @@ Wont display languages or special commands like :help</string>
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>1.1.0</string>
+	<string>1.1.1</string>
 	<key>webaddress</key>
 	<string>https://github.com/gohoyer</string>
 </dict>
