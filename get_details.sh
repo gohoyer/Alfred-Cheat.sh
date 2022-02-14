@@ -3,7 +3,7 @@
 export PATH=/usr/local/bin/:/opt/homebrew/bin/:/usr/bin/:$PATH
 
 result=$(curl -s "cheat.sh/${search_for}?qT")
-previous_line=""
+comments=""
 json_array=""
 command_buffer=""
 
@@ -12,13 +12,25 @@ IFS=$'\n'           # Change IFS to newline char
 
 for line in $result; do
 
+  # Escape necessary chars using JQ
+  line=$(jq -n --arg var "$line" '$var')
+
   # Check if the line is a comment
-  if [[ "${line:0:1}" == '#' ]]; then
+  if [[ "${line:0:2}" == '"#' ]]; then
+
+    # Puts the comment line on the buffer
+    if [[ -z "${comment_buffer}" ]]; then
+      comment_buffer="${line}"
+    else
+      # Appends to buffer removing double quotes from the end of comment_buffer and from the beginning of line
+      length=${#comment_buffer}
+      comment_buffer="${comment_buffer:0: length -1}\n${line:1}"
+    fi
 
     # It whe have commands on buffer
     if [[ -n "${command_buffer}" ]]; then
       # output to json array
-      new_element="{\"title\":\"${previous_line:2}\",\"subtitle\":${command_buffer},\"arg\":${command_buffer},\"autocomplete\":\"$previous_line\"}"
+      new_element="{\"title\":${comments},\"subtitle\":${command_buffer},\"text\": {\"copy\": ${command_buffer}, \"largetype\":${comments}},\"arg\":${command_buffer},\"autocomplete\":$comments}"
       if [[ -z "${json_array}" ]]; then
         # Initialize the array
         json_array=$new_element
@@ -28,13 +40,21 @@ for line in $result; do
       fi
     fi
 
+
+
+
     # clear command buffer
     command_buffer=""
-    previous_line=$line
 
   else
-    # Escape necessary chars using JQ
-    line=$(jq -n --arg var "$line" '$var')
+    # It whe have comments on buffer
+    if [[ -n "${comment_buffer}" ]]; then
+      # saves the comments
+      comments=${comment_buffer}
+      # clear comment_buffer buffer
+      comment_buffer=""
+    fi
+
     # Puts the line on the buffer
     if [[ -z "${command_buffer}" ]]; then
       command_buffer="${line}"
@@ -51,7 +71,7 @@ done
 # It whe still have commands on buffer
 if [[ -n "${command_buffer}" ]]; then
   # output to json array
-  new_element="{\"title\":\"${previous_line:1}\",\"subtitle\":${command_buffer:0:50},\"arg\":$command_buffer,\"autocomplete\":\"$previous_line\"}"
+  new_element="{\"title\":${comments},\"subtitle\":${command_buffer},\"text\": {\"copy\": ${command_buffer}, \"largetype\":${comments}},\"arg\":$command_buffer,\"autocomplete\":$comments}"
   if [[ -z "${json_array}" ]]; then
     # Initialize the array
     json_array=$new_element

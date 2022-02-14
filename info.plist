@@ -1002,7 +1002,7 @@ Wont display languages or special commands like :help</string>
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>1.1.1</string>
+	<string>1.1.3</string>
 	<key>webaddress</key>
 	<string>https://github.com/gohoyer</string>
 </dict>
