@@ -12,16 +12,13 @@ IFS=$'\n'           # Change IFS to newline char
 
 for line in $result; do
 
-  # Escape chars like double quotes
-  line="${line//\"/\\\"}"
-
   # Check if the line is a comment
   if [[ "${line:0:1}" == '#' ]]; then
 
     # It whe have commands on buffer
     if [[ -n "${command_buffer}" ]]; then
       # output to json array
-      new_element="{\"title\":\"${previous_line:2}\",\"subtitle\":\"${command_buffer:0:50}\",\"arg\":\"$command_buffer\",\"autocomplete\":\"$previous_line\"}"
+      new_element="{\"title\":\"${previous_line:2}\",\"subtitle\":${command_buffer},\"arg\":${command_buffer},\"autocomplete\":\"$previous_line\"}"
       if [[ -z "${json_array}" ]]; then
         # Initialize the array
         json_array=$new_element
@@ -36,11 +33,15 @@ for line in $result; do
     previous_line=$line
 
   else
+    # Escape necessary chars using JQ
+    line=$(jq -n --arg var "$line" '$var')
     # Puts the line on the buffer
     if [[ -z "${command_buffer}" ]]; then
       command_buffer="${line}"
     else
-      command_buffer="${command_buffer}\n${line}"
+      # Appends to buffer removing double quotes from the end of command_buffer and from the beginning of line
+      length=${#command_buffer}
+      command_buffer="${command_buffer:0: length -1}\n${line:1}"
     fi
 
   fi
@@ -50,7 +51,7 @@ done
 # It whe still have commands on buffer
 if [[ -n "${command_buffer}" ]]; then
   # output to json array
-  new_element="{\"title\":\"${previous_line:1}\",\"subtitle\":\"${command_buffer:0:50}\",\"arg\":\"$command_buffer\",\"autocomplete\":\"$previous_line\"}"
+  new_element="{\"title\":\"${previous_line:1}\",\"subtitle\":${command_buffer:0:50},\"arg\":$command_buffer,\"autocomplete\":\"$previous_line\"}"
   if [[ -z "${json_array}" ]]; then
     # Initialize the array
     json_array=$new_element
@@ -59,6 +60,7 @@ if [[ -n "${command_buffer}" ]]; then
     json_array="${json_array},${new_element}"
   fi
 fi
+
 
 # Append to the end of the array
 json_array="{\"items\": [${json_array}]}"
