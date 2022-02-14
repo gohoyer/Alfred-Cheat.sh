@@ -21,7 +21,7 @@ for line in $result; do
     # It whe have commands on buffer
     if [[ -n "${command_buffer}" ]]; then
       # output to json array
-      new_element="{\"title\":\"${previous_line:1}\",\"subtitle\":\"${command_buffer:0:50}\",\"arg\":\"$command_buffer\",\"autocomplete\":\"$previous_line\"}"
+      new_element="{\"title\":\"${previous_line:2}\",\"subtitle\":\"${command_buffer:0:50}\",\"arg\":\"$command_buffer\",\"autocomplete\":\"$previous_line\"}"
       if [[ -z "${json_array}" ]]; then
         # Initialize the array
         json_array=$new_element
