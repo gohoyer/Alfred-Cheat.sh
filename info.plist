@@ -226,27 +226,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>fcht</string>
-				<key>subtext</key>
-				<string>Display cheatchet on Terminal</string>
-				<key>text</key>
-				<string>Cheat.sh</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>8FBF5CCC-D11F-438F-8888-1C6B3C3AF1A3</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>alfredfiltersresults</key>
 				<true/>
 				<key>alfredfiltersresultsmatchmode</key>
@@ -302,6 +281,27 @@ json_array=$(printf '%s\n' "${array[@]}" | /usr/local/bin/jq -R . | /usr/local/b
 			<string>6CBE969A-9B97-407A-AFFC-49F6A4B3FE77</string>
 			<key>version</key>
 			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>fcht</string>
+				<key>subtext</key>
+				<string>Display cheatchet on Terminal</string>
+				<key>text</key>
+				<string>Cheat.sh</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>8FBF5CCC-D11F-438F-8888-1C6B3C3AF1A3</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -407,6 +407,8 @@ Please wait... (usually 5 seconds)</string>
 				<key>script</key>
 				<string>#!/bin/bash
 
+export PATH=/usr/local/bin/:/opt/homebrew/bin/:/usr/bin/:$PATH
+
 function unset_languages(){
   # usage:
   # unset_languages array_to_search_in language
@@ -436,7 +438,7 @@ function unset_languages(){
 }
 
 # Get the full list of avaliable cheats (sorted)
-cheat_list=$(/usr/bin/curl -s "cheat.sh/:list" | sort)
+cheat_list=$(curl -s "cheat.sh/:list" | sort)
 
 # Get only the languages avaliable
 languages=$(echo "${cheat_list}" | grep ":learn" | awk -F'/' '{print $1}')
@@ -451,11 +453,11 @@ for i in "${!languages[@]}"; do
 done
 
 # Converts the bash array to a json array (Removes special commands like :help and sublists like awk/*)
-json_array=$(printf '%s\n' "${cheat_list[@]}" | grep -v ":\|/" | /usr/local/bin/jq -R . | /usr/local/bin/jq -s .)
+json_array=$(printf '%s\n' "${cheat_list[@]}" | grep -v ":\|/" | jq -R . | jq -s .)
 
 # Format the output as Script Filter Json Format
 # shellcheck disable=SC2016
-/usr/local/bin/jq -n --argjson item "$json_array" -f &lt;(echo '{"items":[$item[] as $name | {"uid":$name,"title":$name,"arg":$name,"autocomplete":$name}]}')</string>
+jq -n --argjson item "$json_array" -f &lt;(echo '{"items":[$item[] as $name | {"uid":$name,"title":$name,"arg":$name,"autocomplete":$name}]}')</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -1000,7 +1002,7 @@ Wont display languages or special commands like :help</string>
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>1.0.0</string>
+	<string>1.1.0</string>
 	<key>webaddress</key>
 	<string>https://github.com/gohoyer</string>
 </dict>
